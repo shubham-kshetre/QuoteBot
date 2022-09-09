@@ -18,10 +18,3 @@ def send_quote(message):
     bot.send_message(message.chat.id, quote)
 
 bot.polling()
-
-def send_quote():
-    rand_num = random.choice(range(0, 100, 2))
-    quote = quotebot.msg(rand_num)
-    bot.send_message(quote)
-
-print(send_quote())

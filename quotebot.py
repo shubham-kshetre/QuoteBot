@@ -24,6 +24,6 @@ for i in range(1,len(quotelist),1):
 
 
 def msg(rand_num):
-    text = ls[rand_num][12:-2]
-    author = ls[rand_num+1][4:]
-    return f"{text}\n{author}"
+    text = ls[rand_num][13:-3]
+    author = ls[rand_num+1][15:-2]
+    return f"{text}\n- {author}"
